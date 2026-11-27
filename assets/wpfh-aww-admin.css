@@ -1,0 +1,272 @@
+/* ForgeHub AI Woo Writer — WCAG 2.1 AA Admin Styles */
+.wpfh-aww-wrap {
+	max-width: 1180px;
+	margin-top: 16px;
+}
+
+.wpfh-aww-header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 16px;
+	margin-bottom: 18px;
+}
+
+.wpfh-aww-header h1 {
+	margin: 0 0 4px;
+	font-size: 23px;
+	font-weight: 700;
+	color: #0f172a;
+}
+
+.wpfh-aww-subtitle {
+	margin: 0;
+	color: #334155;
+	font-size: 13.5px;
+}
+
+.wpfh-aww-badge {
+	display: inline-block;
+	padding: 5px 12px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.wpfh-aww-badge-free {
+	background: #e0f2fe;
+	color: #075985;
+	border: 1px solid #bae6fd;
+}
+
+.wpfh-aww-badge-pro {
+	background: #ffedd5;
+	color: #9a3412;
+	border: 1px solid #fed7aa;
+}
+
+.wpfh-aww-card {
+	background: #ffffff;
+	border: 1px solid #cbd5e1;
+	border-radius: 8px;
+	padding: 18px 20px;
+	margin-bottom: 18px;
+	box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.wpfh-aww-card h2 {
+	margin: 0 0 14px;
+	font-size: 15.5px;
+	font-weight: 700;
+	color: #0f172a;
+}
+
+.wpfh-aww-pro-card {
+	border-left: 4px solid #0284c7;
+}
+
+.wpfh-aww-grid {
+	display: grid;
+	gap: 14px;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	align-items: start;
+}
+
+.wpfh-aww-field {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.wpfh-aww-field-wide {
+	grid-column: span 2;
+}
+
+.wpfh-aww-field label,
+.wpfh-aww-label {
+	font-weight: 600;
+	font-size: 13px;
+	color: #1e293b;
+}
+
+.wpfh-aww-field select,
+.wpfh-aww-field input[type="text"],
+.wpfh-aww-field input[type="password"],
+.wpfh-aww-field input[type="url"],
+.wpfh-aww-field textarea {
+	width: 100%;
+	max-width: 100%;
+	border: 1px solid #94a3b8;
+	border-radius: 5px;
+	color: #0f172a;
+	background: #ffffff;
+	padding: 6px 10px;
+}
+
+.wpfh-aww-field select,
+.wpfh-aww-field input[type="text"],
+.wpfh-aww-field input[type="password"],
+.wpfh-aww-field input[type="url"] {
+	min-height: 36px;
+}
+
+.wpfh-aww-checks {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	padding-top: 4px;
+}
+
+.wpfh-aww-checks label,
+.wpfh-aww-inline-check {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	font-weight: 500;
+	color: #1e293b;
+	font-size: 13px;
+}
+
+.wpfh-aww-checkbox-field {
+	justify-content: flex-end;
+	padding-top: 24px;
+}
+
+.wpfh-aww-help {
+	margin: 2px 0 0;
+	font-size: 12.5px;
+	color: #334155;
+}
+
+.wpfh-aww-help a {
+	color: #0369a1;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.wpfh-aww-action-bar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+	margin-top: 16px;
+	padding-top: 14px;
+	border-top: 1px solid #e2e8f0;
+}
+
+.wpfh-aww-meta {
+	font-size: 13px;
+	color: #334155;
+	margin: 0 0 12px;
+}
+
+.wpfh-aww-feedback {
+	padding: 11px 14px;
+	border-radius: 6px;
+	margin-bottom: 14px;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.wpfh-aww-feedback.is-success {
+	background: #dcfce7;
+	color: #14532d;
+	border: 1px solid #86efac;
+}
+
+.wpfh-aww-feedback.is-error {
+	background: #fee2e2;
+	color: #7f1d1d;
+	border: 1px solid #fca5a5;
+}
+
+.wpfh-aww-feedback.is-info {
+	background: #e0f2fe;
+	color: #0c4a6e;
+	border: 1px solid #7dd3fc;
+}
+
+.wpfh-aww-inline-notice {
+	background: #fef3c7;
+	color: #78350f;
+	border: 1px solid #fcd34d;
+	border-radius: 6px;
+	padding: 10px 12px;
+	margin-bottom: 14px;
+	font-size: 13px;
+}
+
+.wpfh-aww-inline-notice a {
+	color: #78350f;
+	font-weight: 700;
+}
+
+.wpfh-aww-preview-box {
+	margin-top: 16px;
+	padding: 16px;
+	background: #f8fafc;
+	border: 1px solid #cbd5e1;
+	border-left: 4px solid #0284c7;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.wpfh-aww-preview-box[hidden] {
+	display: none;
+}
+
+.wpfh-aww-preview-box h3 {
+	margin: 0;
+	font-size: 14.5px;
+	color: #0f172a;
+}
+
+.wpfh-aww-progress-wrap {
+	margin: 14px 0;
+}
+
+.wpfh-aww-progress-bar {
+	height: 10px;
+	background: #e2e8f0;
+	border-radius: 999px;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+
+.wpfh-aww-progress-fill {
+	height: 100%;
+	background: #0284c7;
+	transition: width 0.25s ease;
+}
+
+.wpfh-aww-table-wrap {
+	overflow-x: auto;
+	margin-top: 12px;
+}
+
+.wpfh-aww-table th,
+.wpfh-aww-table td {
+	color: #0f172a;
+	vertical-align: middle;
+}
+
+.wpfh-aww-steps {
+	margin: 0;
+	padding-left: 20px;
+	color: #1e293b;
+	line-height: 1.7;
+}
+
+.wpfh-aww-calm-footer {
+	margin-top: 14px;
+	color: #334155;
+	font-size: 13px;
+}
+
+.wpfh-aww-calm-footer a {
+	color: #0369a1;
+	font-weight: 600;
+}
