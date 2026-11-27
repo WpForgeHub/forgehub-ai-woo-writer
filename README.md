@@ -27,6 +27,14 @@ BYOK AI product writer for WooCommerce. Generate SEO descriptions, short descrip
 | Multi-Language Product Copy Output (12+ Languages) | — | ✅ |
 | Automatic SEO Meta Description Sync (Yoast, Rank Math, AIOSEO, ForgeHub SEO) | — | ✅ |
 
+---
+
+## 📸 Admin Preview
+
+<p align="center">
+  <img src="assets/screenshot-1.png" alt="ForgeHub AI Woo Writer WordPress Admin Settings" width="100%" />
+</p>
+
 ## Installation
 
 1. Upload `forgehub-ai-woo-writer` to `/wp-content/plugins/`.
